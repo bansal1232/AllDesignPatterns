@@ -1,0 +1,155 @@
+Majority will be 10 to 12 % coding
+
+Rest 80% to 85%
+
+
+Testing
+Debugging
+Bug-fixing
+Refactoring
+Understand others code
+KT session
+
+Merge conflicts
+Design discussion
+Standup ,team meeting
+Attend session
+
+Facebook
+Instagram
+Chai pe charcha
+
+
+
+1) Clean Coding
+    a) Maintanable ->
+        1) Testable
+        2) Debuggable
+        3) Refactorable
+        4) Confugurable
+    b) Transparent
+
+    c) Extensible
+        Able to add new features with minimal code changes
+        Changing env
+
+    d) Testable
+
+    e) Readable
+
+Code is like a joke ->
+Self explanatory
+
+
+
+Class Bird{
+Properties:
+        Color, Weight, Height.
+Behaviour:
+    void eat();
+    void hunt();
+    void fly();
+}
+
+Litmus test:
+1) Multiple if-else condition
+2) large Methods
+3) Unspecified utility/ helper classes
+
+
+
+
+#Business Requirement Document
+#Version 1.0
+
+Taxes for employees are calculated like this:
+
+- 20% income tax
+- 3% professional tax
+
+
+#version 2.0
+#Business Requirement Document
+#Version 2.0
+
+Taxes for employees are calculated like this:
+
+1) For full time employees
+
+- 30% income tax
+- 2% professional tax
+- 1% education cess
+
+2) For part time employees
+
+- 20% income tax
+- 3% professional tax
+- 1% educational cess
+
+3) For interns
+- If annual income < 300000 => no tax
+- Else => only 15% income tax
+
+
+Design principles are
+
+Robert Martin: Uncle bob
+
+
+//Interface segregation
+Should be lean, Thin, focused
+
+
+5) Dependency Inversion: High level module should not depend on concrete classes, should depend upon abstraction
+
+Dependency:
+
+Car: High level
+    Engine engine:
+
+Engine:
+        low level:
+
+
+
+
+
+A -> C -> E
+B -> D -> E
+
+A a = new A()
+B a = new B()
+
+C a = new C(a)
+D d = new D(b);
+
+E e  = new E(c, d);
+
+
+Inversion of Control:
+
+Control of creation of object goes from your hand to your container of object;
+
+Inversion vs Injection
+
+Hl  -> LL Not valid
+
+
+HL -> Abstraction
+LL -> Abstraction
+
+
+
+Class Car {
+
+}
+
+
+2) Open Closed Principle:
+
+3) Liskov substitution pricnple(barbara Liskov)
+//Object of parent class should be completely replacable by object of child class
+// Every child class should be able to perform all method which is in parent class not throw any exception, blank
+//
+
+

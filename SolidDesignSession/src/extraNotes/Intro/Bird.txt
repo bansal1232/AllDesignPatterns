@@ -1,0 +1,100 @@
+class Bird {
+    //  Properties:
+    private String color, Weight, Height;
+
+    //  Behaviour
+    public void eat() {
+    }
+
+    public void hunt() {
+    }
+
+    public void fly(String type) {
+        if(type.equals("bird")){
+
+        }
+        else if(type.equals("eagle")){
+
+        }
+        else if(type.equals("vulture")) {
+        }
+    }
+}
+
+Bird hen = new Bird("hen");
+Bird eagle = new Bird("eagle");
+
+hen.fly();
+eagle.fly();
+
+50 Birds -> 50 if else condition
+
+Review Quote:
+    if 10 lines is given, 10 mistake
+    1000 lines -> everything is okay
+
+
+class NewBird {
+    //  Properties:
+    private String color, Weight, Height,max_flight_time;
+
+    //  Behaviour
+    public void eat() {
+    }
+
+
+
+}
+
+class Hen extends Bird {
+    public void fly() {
+
+    }
+}
+
+
+class Eagle extends Bird implements flyable{
+    public void fly() {
+
+    }
+}
+
+class Kiwi extends NewBird {
+    public void fly() {
+        throw Exception();
+
+    }
+}
+
+Bird hen = new hen();
+Bird eagle = new Eagle();
+
+Bird kiwi = new Kiwi();
+
+kiwi.fly();
+
+Bird Penguin = new Penguin();
+
+
+
+
+Kiwi kiwi = new Kiwi();
+
+
+interface flyable {
+    void fly();
+}
+
+interface huntable {
+    void hunt();
+}
+
+
+
+
+
+
+
+
+
+
