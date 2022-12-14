@@ -8,7 +8,7 @@ public class Demo {
     public static void main(String[] args) {
         Contact contact1 = new Contact("Shubham");
         Contact contact2 = new Contact("Manish");
-        Contact contact3 = new Contact("Rohan");
+        Contact contact3 = new Contact("Ron");
         contact1.sendMessage(helloMessage);
 
         System.out.println("\n-----------Sending group message-----------");
